@@ -157,8 +157,8 @@ public class Main {
 	
 	// Everything starts here.... 
 	public static void main(String[] args) throws IOException {
-		//init();
-		//initSettingsCalibrate();
+		init();
+		initSettingsCalibrate();
 		// Open GUI window
 		GUI frame = new GUI();
 		frame.setVisible(true);
